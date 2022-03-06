@@ -1,0 +1,57 @@
+.creditcardImg {
+  width: 60px;
+  border: 2px solid red;
+}
+
+.header-container {
+  border: 2px solid black;
+  width: 50%;
+  background-color: aqua;
+  margin: auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 500;
+}
+
+.creditCardIcon {
+  display: flex;
+  margin-left: 6px;
+  align-items: center;
+}
+
+.header-button {
+  font-size: 20px;
+  display: flex;
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  padding: 0 8px;
+}
+
+.header-button i {
+  margin: 4px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .header-container {
+    width: 90%;
+  }
+  .header-logo {
+    font-size: 24px;
+  }
+  .header-button {
+    font-size: 16px;
+  }
+}
